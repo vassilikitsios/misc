@@ -2,7 +2,7 @@ Tunneling Instructions
 =========================================
 
 The the following commands to set up the alias for the tunnels in both directions.  It is most convenient to run these alias within a "screen"
-  alias tunnel_to_external='ssh -N -L 22000:edda.vpac.org:22 <intermediary_login_name>@<intermediary_machine_address>'
+  alias tunnel_to_external='ssh -N -L 22000:<external_machine_address>:22 <intermediary_login_name>@<intermediary_machine_address>'
   alias tunnel_from_external='echo "Making a tunnel from external machine"; ssh -N -R 22001:localhost:22 -p 22000 <external_login_name>@localhost'
 
 To secure copy to the external machine:
