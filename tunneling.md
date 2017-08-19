@@ -1,5 +1,5 @@
+Tunneling Instructions
 =========================================
-        Tunneling Instructions
 
 The the following commands to set up the alias for the tunnels in both directions.  It is most convenient to run these alias within a "screen"
   alias tunnel_to_external='ssh -N -L 22000:edda.vpac.org:22 <intermediary_login_name>@<intermediary_machine_address>'
@@ -22,5 +22,3 @@ To avoid writing "localhost" all the time when using "scp" add the following lin
   port 22000
   host <external_machine_full_address>
   port 22000
-
-=========================================
