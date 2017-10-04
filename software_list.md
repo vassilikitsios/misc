@@ -12,8 +12,8 @@ General
 
 Documentation
 ============================================
-* texlive-full jabref / mactex (comes with bibdesk)
-* kile / texstudio
+* texlive-full, jabref, kile
+* for MAC: mactex (comes with bibdesk), texstudio
 
 
 Graphics
