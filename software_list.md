@@ -30,7 +30,10 @@ Coding
   * conda install -c conda-forge jupyter_contrib_nbextensions
   * conda install -c anaconda netcdf4
   * conda install -c anaconda basemap
+* anaconda2 - from anaconda3 
   * conda create -yn vtkenv python=2 vtk
+  * source activate vtkenv
+  * conda install -c anaconda basemap
 * git
 * copy over ~/.vimrc
 * copy over ~/.bash_aliases
