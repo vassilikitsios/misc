@@ -34,6 +34,7 @@ Coding
   * conda create -yn vtkenv python=2 vtk
   * source activate vtkenv
   * conda install -c anaconda basemap
+  * source deactivate
 * git
 * copy over ~/.vimrc
 * copy over ~/.bash_aliases
