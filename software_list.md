@@ -30,6 +30,7 @@ Coding
   * conda install -c conda-forge jupyter_contrib_nbextensions
   * conda install -c anaconda netcdf4
   * conda install -c anaconda basemap
+  * conda install -c anaconda xarray
   * conda install -c conda-forge nb_conda_kernels  
 * Create VTK environment
   * conda create -yn vtkenv python=2 vtk
