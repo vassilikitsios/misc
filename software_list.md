@@ -32,7 +32,6 @@ Coding
   * conda install -c anaconda basemap
   * conda install -c anaconda xarray
   * conda install -c conda-forge nb_conda_kernels  
-  * conda install -c conda-forge cdms2
 * Create VTK environment
   * conda create -yn vtkenv python=2 vtk
   * source activate vtkenv
